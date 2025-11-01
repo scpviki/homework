@@ -1,5 +1,7 @@
 a=5
 b=6
 c=4
-abc=b,c,a
-print (abc)
+a,b,c=b,c,a
+print (a)
+print(b)
+print(c)
