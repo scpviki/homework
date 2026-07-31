@@ -19,10 +19,12 @@ done = 0
 not_done = 0
 
 for i in range(0, len(weeklyhabit)):
-if weeklyhabit[i] == 1:
-done += 1
-else:
-not_done += 1
+    if weeklyhabit[i] == 1:
+       done += 1
+    else:
+        not_done += 1
+
+
 
 if done > not_done:
     print("Great habit progress")
@@ -30,7 +32,7 @@ else:
     print("try being more consistent")
     print("")
 print("weekly habit tracker sumary")
-print("Habit Name:", habit_info[0])
-print("Weekly Record:", weekly_habits)
+print("Habit Name:", habit[0])
+print("Weekly Record:", weeklyhabit)
 print("Completed:", done)
 print("Missed:", not_done)
